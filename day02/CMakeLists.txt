@@ -1,5 +1,6 @@
 
 add_executable(day02)
+target_compile_features(day02 PRIVATE cxx_std_23)
 
 file(GLOB_RECURSE DAY02_SOURCES "*.cpp")
 file(GLOB_RECURSE DAY02_HEADERS "*.h")

@@ -14,11 +14,6 @@ namespace day02::reader
     {
         data::reports reports{};
         std::ifstream file{inputFilePath.c_str()};
-        std::uint64_t firstNumber{};
-        std::uint64_t secondNumber{};
-        std::uint64_t thirdNumber{};
-        std::uint64_t fourthNumber{};
-        std::uint64_t fithNumber{};
         levels levels;
         if (file.is_open())
         {
@@ -28,7 +23,7 @@ namespace day02::reader
             {
                 levels.clear();
                 std::istringstream iss{line};
-                std::uint64_t number{};
+                std::int64_t number{};
                 while(iss >> number)
                 {
                     levels.push_back(number);
