@@ -7,9 +7,9 @@ namespace day03
 class Parser
 {
 public:
-    Parser();
 
-    MulList parse(std::istream &inputStream) const;
+    MulList parse01(std::istream &inputStream) const;
+    MulList parse02(std::istream &inputStream) const;
 
 private:
 };
