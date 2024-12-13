@@ -25,6 +25,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Add sub project
 add_subdirectory(day01)
 add_subdirectory(day02)
+add_subdirectory(day03)
 # add_subdirectory(beerUnitTest)
 # add_subdirectory(beerConsole)
 
