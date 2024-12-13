@@ -49,3 +49,4 @@ build
 ### CMake Patch ###
 # External projects
 *-prefix/
+.vs/
